@@ -18,3 +18,47 @@ body {
   max-width: 320px;
   margin-bottom: 16px;
 }
+ul {
+  padding: 0;
+  list-style: none;
+}
+
+li {
+  margin-bottom: 20px;
+  margin-left: 20px;
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+img {
+  display: block;
+  width: 100px;
+  height: auto;
+  border: 0.5px solid rgb(128, 128, 128);
+}
+
+h1 {
+  font-size: 60px;
+  color: #212121;
+  margin: 24px;
+  padding: 0;
+}
+
+p {
+  margin-top: 10px;
+  margin-bottom: 0px;
+  margin-left: 20px;
+  font-size: 30px;
+}
+
+.big_img {
+  display: block;
+  width: 400px;
+  height: auto;
+  border: 0.5px solid rgb(129, 201, 127);
+}
+
+.title {
+  font-weight: 600;
+}
